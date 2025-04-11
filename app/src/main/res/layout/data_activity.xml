@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".DataActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/green"
+        app:navigationIcon="?attr/homeAsUpIndicator">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="323dp"
+        android:layout_height="123dp"
+        android:src="@drawable/insect"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/input_bg1"
+        android:backgroundTint="#2B6D2D"
+        android:drawableLeft="@drawable/baseline_map_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:paddingLeft="30dp"
+        android:paddingTop="25dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="25dp"
+        android:text="Map"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/input_bg1"
+        android:backgroundTint="#E47A1C"
+        android:drawableLeft="@drawable/baseline_bar_chart_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:paddingLeft="30dp"
+        android:paddingTop="25dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="25dp"
+        android:text="Pie Graph"
+        android:textColor="@color/white"
+        android:textSize="30sp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBarG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/input_bg1"
+        android:backgroundTint="#E47A1C"
+        android:drawableLeft="@drawable/baseline_bar_chart_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:paddingLeft="30dp"
+        android:paddingTop="25dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="25dp"
+        android:text="Bar Graph"
+        android:textColor="@color/white"
+        android:textSize="30sp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>

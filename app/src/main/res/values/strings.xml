@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Rice Insect Pest</string>
+
+    <string name="map_key" translatable="false">AIzaSyCyxlG3zhqOAzL8pu4Wdp6UQJU2zvfQYZs</string>
+    //-------- Banana Leaf Black Sigatoka --------
+    <string name="Banana_Black_Sigatoka" tools:ignore="TypographyDashes">Black sigatoka is a leaf-spot disease of banana plants caused by the ascomycete fungus Mycosphaerella fijiensis.</string>
+    <string name="Banana_Black_Sigatoka_Treatment">Cut the entire leaf with necrosis, regardless of the level of infestation. To maintain a sufficient number of healthy leaves at harvest, be precise in the operations that can reduce leaf area (trimming and harvest of neighboring bunches).</string>
+
+    //-------- Banana Fusarium Wilt --------
+    <string name="Banana_Fusarium">Fusarium wilt, caused by Fusarium oxysporum f. sp. cubense (Foc), is one of the most threatening fungal diseases affecting banana plantations across the globe. It was first discovered in Australia in 1874 and has now spread to numerous different regions in the world hinting at the persistency of the pathogen.</string>
+    <string name="Banana_Fusarium_Treatment_1">Fusarium wilt, caused by Fusarium oxysporum f. sp. cubense (Foc), is one of the most threatening fungal diseases affecting banana plantations across the globe. It was first discovered in Australia in 1874 and has now spread to numerous different regions in the world hinting at the persistency of the pathogen.</string>
+    <string name="Banana_Fusarium_Treatment">Don\'t compost this garden refuse. Whenever possible, remove and replace fusarium-infected garden soil.</string>
+
+    //-------- Banana Bunchy Top --------
+    <string name="Banana_BBT" tools:ignore="TypographyDashes">Banana bunchy top is a serious viral disease of bananas. Affected plants rarely produce fruit, which results in significant production losses and once plants have become infected there is no cure. Backyard plantings of banana are common in Queensland and can be significantly affected by the disease.</string>
+    <string name="Banana_BBT_Treatment">Banana bunchy top disease affects the banana fruit and foliage, and is caused by a single-strand DNA virus, the banana bunchy top virus. Control of banana bunchy top is achieved by killing the banana aphids then destroying all infected material. First, the aphids should be killed on the infected banana material, and then all the plant material should be destroyed to prevent the spread of the virus. Infected banana plants can be sprayed with an insecticide like Sevin to reduce or get rid of the aphid population, since control of viruses starts with control of the vectors.</string>
+
+
+    //-------- About the Application --------
+    <string name="About_BananaDiseaseApplication">This Application was created by Miss Lovely Grace A. Erasmo. A 4th year student taking up Bachelor of Science in Information Technology. This Application can identify 3 types of Banana Disease namely Black Sigatoka, Fusarium Wilt, and BBT Bunchy Top .</string>
+
+    //---------How to use the app ----------
+    <string name="Howtouse">HOW TO USE THIS APP</string>
+    <string name="Howtouse1">----> Open the app and choose the choices below either camera or gallery and start capturing image or choose on gallery and wait for the result given by the app.</string>
+
+    //---------Disease dropdown menu ------
+    <string-array name="diseaseArray">
+        <item>Brown Plant Hopper</item>
+        <item>Mole Cricket</item>
+        <item>Rice Bug</item>
+        <item>Rice Leaf Folders</item>
+        <item>Stem Borer</item>
+    </string-array>
+</resources>

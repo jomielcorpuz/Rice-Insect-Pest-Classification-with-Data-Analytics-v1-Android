@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "128006145003",
+    "firebase_url": "https://riceinsectdb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "riceinsectdb",
+    "storage_bucket": "riceinsectdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128006145003:android:d3c1ca07c4d12bd7f04fae",
+        "android_client_info": {
+          "package_name": "com.example.riceinsectpest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjbpDMsPmtvQ6l1-HaBCDk-xFBAqVA6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".on_activity_result_cam_gal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/green"
+        app:navigationIcon="?attr/homeAsUpIndicator">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ToolBar"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageViewer"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="160dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/plantView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="90dp"
+            android:text="Plantation Name: "
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/imageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Powdery Mildew"
+        android:textSize="30dp"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/Confidence_Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accuracy: "
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Confidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/Confidence_Label"
+            android:text="No Data"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ShowBottom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="SHOW RESULT"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ToolBar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+
+        android:background="@drawable/spinner_background">
+        <Spinner
+            android:id="@+id/spinnerPlantation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/plantationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/ToolBar"
+       android:layout_marginStart="20dp"
+        android:text="SELECT PLANTATION"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/addView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_below="@+id/ToolBar"
+        android:layout_marginStart="20dp"
+        android:text="Address: "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        />
+
+
+    <TextView
+        android:id="@+id/txtPlantationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_below="@+id/ToolBar"
+        android:layout_marginStart="150dp"
+        android:textAllCaps="true"
+        android:text="Loading Data... "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/txtPlantationAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_below="@+id/ToolBar"
+        android:layout_marginStart="90dp"
+        android:textAllCaps="true"
+        android:text="Loading Data... "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:id="@+id/SaveData"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShowBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="SAVE DATA"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+</RelativeLayout>
